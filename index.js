@@ -74,7 +74,6 @@ module.exports = {
     "no-shadow": 1,
     "no-shadow-restricted-names": 1,
     "no-undef-init": 1,
-    "no-undefined": 1,
     "no-use-before-define": 1,
 
     /* Node.js and CommonJS */
@@ -98,7 +97,6 @@ module.exports = {
     "no-var": 1,
     "prefer-const": 1,
     "prefer-template": 1,
-    "sort-imports": 1,
     "template-curly-spacing": 1
   }
 };
