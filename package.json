@@ -1,0 +1,27 @@
+{
+  "name": "eslint-config-medanat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/medanat/eslint-config.git"
+  },
+  "keywords": [
+    "eslint",
+    "medanat"
+  ],
+  "author": "Yazan Medanat <medanat+npm@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/medanat/eslint-config/issues"
+  },
+  "homepage": "https://github.com/medanat/eslint-config#readme",
+  "dependencies": {
+    "eslint": "3.5.0",
+    "eslint-plugin-babel": "3.3.0",
+    "eslint-plugin-react": "6.2.0"
+  }
+}
