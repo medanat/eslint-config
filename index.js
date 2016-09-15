@@ -78,7 +78,6 @@ module.exports = {
 
     /* Node.js and CommonJS */
     "callback-return": 1,
-    "global-require": 1,
     "handle-callback-err": 1,
     // "no-mixed-requires": 1,
     "no-new-require": 1,
