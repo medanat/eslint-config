@@ -21,9 +21,6 @@ module.exports = {
     "react/self-closing-comp": 1,
     "react/jsx-uses-react": 1,
     "react/jsx-uses-vars": 1,
-    "react/jsx-wrap-multilines": 1,
-
-    /* babel overrides */
-    "babel/arrow-parens": [1, "as-needed"]
+    "react/jsx-wrap-multilines": 1
   }
 };
