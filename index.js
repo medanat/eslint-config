@@ -10,7 +10,7 @@ module.exports = {
     "strict": 0,
 
     /* Possible Errors are covered in "eslint:recommended" */
-    "no-extra-parens": 1,
+    "no-extra-parens": 0,
     "no-prototype-builtins": 1,
     "no-template-curly-in-string": 1,
     "no-unsafe-negation": 1,
@@ -57,6 +57,8 @@ module.exports = {
     "key-spacing": 1,
     "keyword-spacing": 1,
     "linebreak-style": [1, "unix"],
+    "newline-after-var": 1,
+    "newline-before-return": 1,
     "no-lonely-if": 1,
     "no-multiple-empty-lines": 1,
     "no-tabs": 1,
