@@ -9,8 +9,11 @@ module.exports = {
     mocha: true
   },
   extends: ['plugin:react/recommended'],
-  ecmaFeatures: {
-    jsx: true
+  parserOptions: {
+    ecmaVersion: 6,
+    ecmaFeatures: {
+      jsx: true
+    }
   },
   rules: {
     'react/no-danger': 1,
