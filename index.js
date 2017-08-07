@@ -52,7 +52,7 @@ module.exports = {
     'computed-property-spacing': 1,
     'eol-last': 1,
     'func-call-spacing': 1,
-    indent: [1, 2, { VariableDeclarator: { var: 2, let: 2, const: 3 }, SwitchCase: 1 }],
+    indent: [1, 2, { VariableDeclarator: { var: 2, let: 2, const: 3 }, SwitchCase: 1, ObjectExpression: 'first', ImportDeclaration: 'first' }],
     'jsx-quotes': [1, 'prefer-single'],
     'key-spacing': 1,
     'keyword-spacing': 1,
