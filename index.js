@@ -40,7 +40,7 @@ module.exports = {
     'no-useless-call': 1,
     radix: 1,
     'vars-on-top': 1,
-    yoda: 1,
+    yoda: [1, 'never', { exceptRange: true }],
 
     /* Stylistic Issues */
     'array-callback-return': 1,
@@ -104,7 +104,7 @@ module.exports = {
     'arrow-body-style': 1,
     'arrow-parens': [1, 'as-needed'],
     'arrow-spacing': 1,
-    'no-confusing-arrow': 1,
+    'no-confusing-arrow': [1, { allowParens: true }],
     'no-useless-computed-key': 1,
     'no-var': 1,
     'prefer-const': 1,

@@ -25,6 +25,7 @@ module.exports = {
     'react/self-closing-comp': 1,
     'react/jsx-uses-react': 1,
     'react/jsx-uses-vars': 1,
-    'react/jsx-wrap-multilines': 1
+    'react/jsx-wrap-multilines': 1,
+    'react/jsx-indent-props': [1, 2]
   }
 };
