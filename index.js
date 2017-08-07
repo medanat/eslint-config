@@ -81,7 +81,7 @@ module.exports = {
 
     /* Variables */
     'init-declarations': 1,
-    'no-catch-shadow': 1,
+    'no-catch-shadow': 0,
     'no-label-var': 1,
     'no-restricted-globals': 1,
     'no-shadow': 0,
