@@ -1,4 +1,4 @@
-# eslint-config
+# eslint-config-medanat
 
 ## Installation
 
