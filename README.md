@@ -1,6 +1,6 @@
 # eslint-config
 
-## Forstall
+## Installation
 
 ```
 npm i --save-dev eslint eslint-config-medanat
