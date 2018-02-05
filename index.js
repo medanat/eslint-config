@@ -43,6 +43,7 @@ module.exports = {
     yoda: [1, 'never', { exceptRange: true }],
 
     /* Stylistic Issues */
+    'array-bracket-spacing': [1, 'never'],
     'array-callback-return': 1,
     'block-spacing': 1,
     'brace-style': [1, '1tbs', { allowSingleLine: true }],
@@ -107,6 +108,7 @@ module.exports = {
     'no-confusing-arrow': [1, { allowParens: true }],
     'no-useless-computed-key': 1,
     'no-var': 1,
+    'object-shorthand': [1, 'properties'],
     'prefer-const': 1,
     'prefer-template': 1,
     'template-curly-spacing': 1
