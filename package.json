@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-medanat",
-  "version": "2.13.0",
+  "version": "2.14.0",
   "description": "Opinionated eslint configuration",
   "main": "index.js",
   "scripts": {
