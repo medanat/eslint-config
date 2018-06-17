@@ -5,6 +5,9 @@ module.exports = {
     es6: true
   },
   extends: 'eslint:recommended',
+  parserOptions: {
+    ecmaVersion: 9
+  },
   rules: {
     /* Strict Mode */
     strict: 0,
