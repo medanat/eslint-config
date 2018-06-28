@@ -4,7 +4,7 @@
   "description": "Opinionated eslint configuration",
   "main": "index.js",
   "scripts": {
-    "lint": "./node_modules/.bin/eslint ./**/*",
+    "lint": "eslint ./",
     "lint-fix": "npm run lint -- --fix",
     "test": "npm run lint"
   },
@@ -23,16 +23,16 @@
   },
   "homepage": "https://github.com/medanat/eslint-config#readme",
   "dependencies": {
-    "babel-eslint": "8.2.3",
+    "babel-eslint": "8.2.5",
     "eslint-plugin-babel": "5.1.0",
     "eslint-plugin-flowtype": "2.49.3",
-    "eslint-plugin-react": "7.9.1"
+    "eslint-plugin-react": "7.10.0"
   },
   "devDependencies": {
-    "eslint": "4.19.1"
+    "eslint": "5.0.1"
   },
   "peerDependencies": {
-    "eslint": "^4.5.0"
+    "eslint": "^5.0.0"
   },
   "engines": {
     "node": ">= 6"
