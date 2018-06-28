@@ -6,7 +6,7 @@ module.exports = {
   },
   extends: 'eslint:recommended',
   parserOptions: {
-    ecmaVersion: 9
+    ecmaVersion: 2018
   },
   rules: {
     /* Strict Mode */
