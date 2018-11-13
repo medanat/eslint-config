@@ -1,9 +1,10 @@
 {
-  "name": "eslint-config-medanat",
-  "version": "2.21.0",
+  "name": "@medanat/lint",
+  "version": "3.0.0",
   "description": "Opinionated eslint configuration",
   "main": "index.js",
   "scripts": {
+    "bootstrap": "lerna bootstrap",
     "lint": "eslint ./",
     "lint-fix": "npm run lint -- --fix",
     "test": "npm run lint"
@@ -22,20 +23,14 @@
     "url": "https://github.com/medanat/eslint-config/issues"
   },
   "homepage": "https://github.com/medanat/eslint-config#readme",
-  "dependencies": {
-    "babel-eslint": "9.0.0",
-    "eslint-plugin-babel": "5.1.0",
-    "eslint-plugin-flowtype": "2.50.0",
-    "eslint-plugin-react": "7.11.1"
-  },
   "devDependencies": {
-    "eslint": "5.4.0",
+    "eslint": "5.9.0",
     "lerna": "3.4.3"
   },
   "peerDependencies": {
     "eslint": "^5.0.0"
   },
   "engines": {
-    "node": ">= 6"
+    "node": ">= 8"
   }
 }
