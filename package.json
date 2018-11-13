@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "bootstrap": "lerna bootstrap",
+    "outdated": "npm outdated && npx lerna exec --no-bail -- npm outdated",
     "lint": "eslint ./",
     "lint-fix": "npm run lint -- --fix",
     "test": "npm run lint"
@@ -28,7 +29,7 @@
     "lerna": "3.4.3"
   },
   "peerDependencies": {
-    "eslint": "^5.0.0"
+    "eslint": "^5.9.0"
   },
   "engines": {
     "node": ">= 8"
