@@ -1,3 +1,7 @@
 {
-  "extends": ["./index.js", "./flow.js", "./react.js"]
+  "extends": [
+    "./packages/eslint-config/index.js",
+    "./packages/eslint-config-flow/index.js",
+    "./packages/eslint-config-react/index.js"
+  ]
 }
