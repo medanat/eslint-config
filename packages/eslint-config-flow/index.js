@@ -4,6 +4,7 @@ module.exports = {
     'plugin:flowtype/recommended'
   ],
   plugins: [
+    'babel',
     'flowtype'
   ],
   rules: {

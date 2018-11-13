@@ -1,6 +1,7 @@
 module.exports = {
   parser: 'babel-eslint',
   plugins: [
+    'babel',
     'react'
   ],
   env: {
@@ -8,12 +9,19 @@ module.exports = {
     node: true,
     mocha: true
   },
-  extends: ['plugin:react/recommended'],
+  extends: [
+    'plugin:react/recommended'
+  ],
   parserOptions: {
-    ecmaVersion: 9,
+    ecmaVersion: 2018,
     sourceType: 'module',
     ecmaFeatures: {
       jsx: true
+    }
+  },
+  settings: {
+    react: {
+      version: '16.1'
     }
   },
   rules: {

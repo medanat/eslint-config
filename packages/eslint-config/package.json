@@ -1,0 +1,26 @@
+{
+  "name": "@medanat/eslint-config",
+  "version": "3.0.0",
+  "description": "Opinionated eslint configuration",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/medanat/eslint-config.git"
+  },
+  "keywords": [
+    "eslint",
+    "medanat"
+  ],
+  "author": "Yazan Medanat <medanat+npm@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/medanat/eslint-config/issues"
+  },
+  "homepage": "https://github.com/medanat/eslint-config#readme",
+  "peerDependencies": {
+    "eslint": "^5.9.0"
+  },
+  "engines": {
+    "node": ">= 8"
+  }
+}
