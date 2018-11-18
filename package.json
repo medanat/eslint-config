@@ -8,6 +8,7 @@
     "outdated": "npm outdated && npx lerna exec --no-bail -- npm outdated",
     "lint": "eslint ./",
     "lint-fix": "npm run lint -- --fix",
+    "publish": "npx lerna publish -- --access public",
     "test": "npm run lint"
   },
   "repository": {
