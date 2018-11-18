@@ -1,6 +1,6 @@
 {
   "name": "@medanat/eslint-config-react",
-  "version": "3.0.2",
+  "version": "3.0.0",
   "description": "Opinionated eslint configuration",
   "private": false,
   "main": "index.js",
