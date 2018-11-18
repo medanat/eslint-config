@@ -3,7 +3,7 @@
 ## Installation
 
 ```
-npm i --save-dev eslint @medanat-pkgs/eslint-config
+npm i --save-dev eslint @medanat/eslint-config
 ```
 
 ## Usage
@@ -13,39 +13,39 @@ In your `.eslintrc`:
 ### For plain JS environments
 ```
 {
-  "extends": ["@medanat-pkgs"]
+  "extends": ["@medanat"]
 }
 ```
 
 ### For React environments
 ```
-npm i --save-dev eslint @medanat-pkgs/eslint-config @medanat-pkgs/eslint-config-react
+npm i --save-dev eslint @medanat/eslint-config @medanat/eslint-config-react
 ```
 
 ```
 {
-  "extends": ["@medanat-pkgs", "@medanat-pkgs/react"]
+  "extends": ["@medanat", "@medanat/react"]
 }
 ```
 
 ### For Flow environments
 ```
-npm i --save-dev eslint @medanat-pkgs/eslint-config @medanat-pkgs/eslint-config-flow
+npm i --save-dev eslint @medanat/eslint-config @medanat/eslint-config-flow
 ```
 
 ```
 {
-  "extends": ["@medanat-pkgs", "@medanat-pkgs/flow"]
+  "extends": ["@medanat", "@medanat/flow"]
 }
 ```
 
 ### All together now
 ```
-npm i --save-dev eslint @medanat-pkgs/eslint-config @medanat-pkgs/eslint-config-flow @medanat-pkgs/eslint-config-react
+npm i --save-dev eslint @medanat/eslint-config @medanat/eslint-config-flow @medanat/eslint-config-react
 ```
 
 ```
 {
-  "extends": ["@medanat-pkgs", "@medanat-pkgs/react", "@medanat-pkgs/flow"]
+  "extends": ["@medanat", "@medanat/react", "@medanat/flow"]
 }
 ```

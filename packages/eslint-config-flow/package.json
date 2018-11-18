@@ -1,5 +1,5 @@
 {
-  "name": "@medanat-pkgs/eslint-config-flow",
+  "name": "@medanat/eslint-config-flow",
   "version": "3.0.1",
   "description": "Opinionated eslint configuration",
   "main": "index.js",
@@ -23,7 +23,7 @@
     "eslint-plugin-flowtype": "3.2.0"
   },
   "peerDependencies": {
-    "@medanat-pkgs/eslint-config": "^3.0.0",
+    "@medanat/eslint-config": "^3.0.1",
     "eslint": "^5.9.0"
   },
   "engines": {
