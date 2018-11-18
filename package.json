@@ -2,6 +2,7 @@
   "name": "@medanat/lint",
   "version": "3.0.0",
   "description": "Opinionated eslint configuration",
+  "private": false,
   "main": "index.js",
   "scripts": {
     "bootstrap": "lerna bootstrap",

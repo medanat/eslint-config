@@ -2,6 +2,7 @@
   "name": "@medanat/eslint-config",
   "version": "3.0.2",
   "description": "Opinionated eslint configuration",
+  "private": false,
   "main": "index.js",
   "repository": {
     "type": "git",
