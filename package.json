@@ -1,5 +1,5 @@
 {
-  "name": "@medanat/lint",
+  "name": "@medanat-pkgs/lint",
   "version": "3.0.0",
   "description": "Opinionated eslint configuration",
   "main": "index.js",

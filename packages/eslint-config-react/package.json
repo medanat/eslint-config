@@ -1,5 +1,5 @@
 {
-  "name": "@medanat/eslint-config-react",
+  "name": "@medanat-pkgs/eslint-config-react",
   "version": "3.0.0",
   "description": "Opinionated eslint configuration",
   "main": "index.js",
