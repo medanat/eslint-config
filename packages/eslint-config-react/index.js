@@ -34,7 +34,15 @@ module.exports = {
     'react/no-unused-prop-types': 1,
     'react/jsx-no-duplicate-props': 1,
     'react/self-closing-comp': 1,
-    'react/sort-comp': 1,
+    'react/sort-comp': [1, {
+      order: [
+        'type-annotations',
+        'static-methods',
+        'lifecycle',
+        'everything-else',
+        'render'
+      ]
+    }],
     'react/jsx-uses-react': 1,
     'react/jsx-uses-vars': 1,
     'react/jsx-wrap-multilines': 1,
