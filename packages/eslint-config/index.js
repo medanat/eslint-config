@@ -64,7 +64,7 @@ module.exports = {
     'newline-after-var': 1,
     'newline-before-return': 1,
     'no-lonely-if': 1,
-    'no-multiple-empty-lines': 1,
+    'no-multiple-empty-lines': [1, { max: 1, maxEOF: 0, maxBOF: 0 }],
     'no-tabs': 1,
     'no-trailing-spaces': 1,
     'no-underscore-dangle': 1,
