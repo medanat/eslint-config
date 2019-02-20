@@ -24,11 +24,11 @@
   "dependencies": {
     "babel-eslint": "10.0.1",
     "eslint-plugin-babel": "5.3.0",
-    "eslint-plugin-flowtype": "3.2.1"
+    "eslint-plugin-flowtype": "3.4.2"
   },
   "peerDependencies": {
     "@medanat/eslint-config": "^3.0.4",
-    "eslint": "^5.12.1"
+    "eslint": "^5.14.1"
   },
   "engines": {
     "node": ">= 8"
