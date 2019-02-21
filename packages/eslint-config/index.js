@@ -69,6 +69,7 @@ module.exports = {
     'no-trailing-spaces': 1,
     'no-underscore-dangle': 1,
     'object-curly-spacing': [1, 'always'],
+    'padded-blocks': [1, 'never', { allowSingleLineBlocks: false }],
     'quote-props': [1, 'as-needed'],
     quotes: [1, 'single', { avoidEscape: true, allowTemplateLiterals: true }],
     'semi-spacing': 1,
