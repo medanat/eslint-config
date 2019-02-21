@@ -40,6 +40,8 @@ module.exports = {
     'no-implicit-coercion': 1,
     'no-implicit-globals': 1,
     'no-multi-spaces': 1,
+    'no-return-assign': 1,
+    'no-return-await': 1,
     'no-useless-call': 1,
     radix: 1,
     'vars-on-top': 1,
