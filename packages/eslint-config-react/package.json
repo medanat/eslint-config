@@ -23,7 +23,7 @@
   "homepage": "https://github.com/medanat/eslint-config#readme",
   "dependencies": {
     "eslint-plugin-babel": "5.3.0",
-    "eslint-plugin-react": "7.13.0"
+    "eslint-plugin-react": "7.14.0"
   },
   "peerDependencies": {
     "eslint": "^5.16.0"
