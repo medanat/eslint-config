@@ -28,7 +28,7 @@
   },
   "peerDependencies": {
     "@medanat/eslint-config": "^3.0.4",
-    "eslint": "^5.16.0"
+    "eslint": "^6.0.1"
   },
   "engines": {
     "node": ">= 8"
