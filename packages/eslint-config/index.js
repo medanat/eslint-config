@@ -77,7 +77,9 @@ module.exports = {
     quotes: [1, 'single', { avoidEscape: true, allowTemplateLiterals: true }],
     'semi-spacing': 1,
     semi: [1, 'always'],
-    'one-var': [1, 'consecutive'],
+    'one-var': [1, {
+      initialized: 'never'
+    }],
     'sort-vars': 0,
     'space-before-blocks': 1,
     'space-before-function-paren': [1, { anonymous: 'always', named: 'never' }],
