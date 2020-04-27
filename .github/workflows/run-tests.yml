@@ -10,7 +10,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v1
         with:
-          node-version: 10.17.0
+          node-version: 12.16.2
       - name: Install Packages
         run: make install
       - name: Run Tests
