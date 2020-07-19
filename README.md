@@ -17,6 +17,17 @@ In your `.eslintrc`:
 }
 ```
 
+### For Node.js environments
+```
+npm i --save-dev eslint @medanat/eslint-config @medanat/eslint-config-node
+```
+
+```
+{
+  "extends": ["@medanat", "@medanat/node"]
+}
+```
+
 ### For React environments
 ```
 npm i --save-dev eslint @medanat/eslint-config @medanat/eslint-config-react
