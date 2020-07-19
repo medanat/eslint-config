@@ -1,5 +1,5 @@
 const { one, two, three,
-        four } = require('numbers');
+        four } = require('./numbers');
 
 one();
 two();
