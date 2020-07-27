@@ -36,6 +36,7 @@
     "eslint-plugin-flowtype": "5.2.0",
     "eslint-plugin-node": "11.1.0",
     "eslint-plugin-react": "7.20.3",
+    "eslint-plugin-react-hooks": "4.0.8",
     "lerna": "3.22.1"
   },
   "peerDependencies": {
