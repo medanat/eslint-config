@@ -11,7 +11,8 @@ module.exports = {
     mocha: true
   },
   extends: [
-    'plugin:react/recommended'
+    'plugin:react/recommended',
+    'plugin:react-hooks/recommended'
   ],
   parserOptions: {
     ecmaVersion: 2018,
