@@ -1,11 +1,14 @@
 module.exports = {
   root: true,
-  parser: 'babel-eslint',
+  parser: '@babel/eslint-parser',
+  parserOptions: {
+    requireConfigFile: false
+  },
   extends: [
     'plugin:flowtype/recommended'
   ],
   plugins: [
-    'babel',
+    '@babel',
     'flowtype'
   ],
   rules: {
