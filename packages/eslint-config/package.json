@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/medanat/eslint-config#readme",
   "peerDependencies": {
-    "eslint": "^7.5.0"
+    "eslint": "^7.8.1"
   },
   "engines": {
     "node": ">= 12"
