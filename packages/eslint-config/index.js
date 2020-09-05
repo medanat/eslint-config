@@ -101,17 +101,6 @@ module.exports = {
     'no-unused-vars': [1, { vars: 'all', args: 'after-used', ignoreRestSiblings: true }],
     'no-use-before-define': 1,
 
-    /* Node.js and CommonJS */
-    'callback-return': 1,
-    'handle-callback-err': 1,
-    // "no-mixed-requires": 1,
-    'no-new-require': 1,
-    'no-path-concat': 1,
-    // "no-process-env": 1,
-    'no-process-exit': 1,
-    'no-restricted-modules': 1,
-    'no-sync': 1,
-
     /* ES6 */
     'arrow-body-style': 1,
     'arrow-parens': [1, 'as-needed'],
