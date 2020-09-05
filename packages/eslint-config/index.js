@@ -98,7 +98,13 @@ module.exports = {
     'no-shadow': 0,
     'no-shadow-restricted-names': 1,
     'no-undef-init': 1,
-    'no-unused-vars': [1, { vars: 'all', args: 'after-used', argsIgnorePattern: '^_', ignoreRestSiblings: true }],
+    'no-unused-vars': [1, {
+      args: 'after-used',
+      argsIgnorePattern: '^_',
+      ignoreRestSiblings: true,
+      vars: 'all',
+      varsIgnorePattern: '^_'
+    }],
     'no-use-before-define': 1,
 
     /* ES6 */
