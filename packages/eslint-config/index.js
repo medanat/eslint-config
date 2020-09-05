@@ -98,6 +98,7 @@ module.exports = {
     'no-shadow': 0,
     'no-shadow-restricted-names': 1,
     'no-undef-init': 1,
+    'no-unused-vars': [1, { vars: 'all', args: 'after-used', ignoreRestSiblings: true }],
     'no-use-before-define': 1,
 
     /* Node.js and CommonJS */
