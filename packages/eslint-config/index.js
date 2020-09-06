@@ -65,15 +65,27 @@ module.exports = {
     'key-spacing': 1,
     'keyword-spacing': 1,
     'linebreak-style': [1, 'unix'],
-    'newline-after-var': 1,
-    'newline-before-return': 1,
     'no-lonely-if': 1,
     'no-multiple-empty-lines': [1, { max: 1, maxEOF: 0, maxBOF: 0 }],
     'no-tabs': 1,
     'no-trailing-spaces': 1,
     'no-underscore-dangle': 1,
     'object-curly-spacing': [1, 'always'],
+    'one-var-declaration-per-line': [1, 'always'],
     'padded-blocks': [1, 'never', { allowSingleLineBlocks: false }],
+    'padding-line-between-statements': [1, {
+      blankLine: 'always',
+      prev: ['const', 'let', 'var'],
+      next: '*'
+    }, {
+      blankLine: 'any',
+      prev: ['const', 'let', 'var'],
+      next: ['const', 'let', 'var']
+    }, {
+      blankLine: 'always',
+      prev: '*',
+      next: 'return'
+    }],
     'quote-props': [1, 'as-needed'],
     quotes: [1, 'single', { avoidEscape: true, allowTemplateLiterals: true }],
     'semi-spacing': 1,
@@ -92,7 +104,6 @@ module.exports = {
 
     /* Variables */
     'init-declarations': 1,
-    'no-catch-shadow': 0,
     'no-label-var': 1,
     'no-restricted-globals': 1,
     'no-shadow': 0,
