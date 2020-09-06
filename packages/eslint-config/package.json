@@ -1,6 +1,6 @@
 {
   "name": "@medanat/eslint-config",
-  "version": "5.3.3",
+  "version": "5.3.4",
   "description": "Opinionated eslint configuration",
   "private": false,
   "publishConfig": {
