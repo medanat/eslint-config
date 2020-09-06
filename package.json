@@ -12,6 +12,7 @@
     "outdated": "npm outdated && npx lerna exec --no-bail -- npm outdated",
     "lint": "eslint ./",
     "lint-fix": "npm run lint -- --fix",
+    "lint:deprecated-rules": "eslint-find-rules -d ./packages/eslint-config/index.js",
     "publish": "npx lerna publish -- --access public",
     "test": "npm run lint"
   },
@@ -34,6 +35,7 @@
     "@babel/eslint-parser": "7.11.5",
     "@babel/eslint-plugin": "7.11.5",
     "eslint": "7.8.1",
+    "eslint-find-rules": "3.6.0",
     "eslint-plugin-flowtype": "5.2.0",
     "eslint-plugin-node": "11.1.0",
     "eslint-plugin-react": "7.20.4",
