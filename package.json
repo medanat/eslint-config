@@ -13,7 +13,7 @@
     "lint": "eslint ./",
     "lint-fix": "npm run lint -- --fix",
     "lint:deprecated-rules": "eslint-find-rules -d ./packages/eslint-config/index.js",
-    "publish": "npx lerna publish -- --access public",
+    "publish": "npx lerna publish",
     "test": "npm run lint"
   },
   "repository": {
