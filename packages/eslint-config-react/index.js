@@ -24,7 +24,7 @@ module.exports = {
   ],
   settings: {
     react: {
-      version: '16.8'
+      version: '17'
     }
   },
   rules: {
@@ -35,9 +35,17 @@ module.exports = {
     'react/jsx-curly-brace-presence': [1, 'never'],
     'react/jsx-indent-props': [1, 2],
     'react/jsx-no-duplicate-props': 1,
-    'react/jsx-uses-react': 1,
+    'react/jsx-uses-react': 0,
     'react/jsx-uses-vars': 1,
-    'react/jsx-wrap-multilines': 1,
+    'react/jsx-wrap-multilines': [1, {
+      declaration: 'parens-new-line',
+      assignment: 'parens-new-line',
+      return: 'parens-new-line',
+      arrow: 'parens',
+      condition: 'parens',
+      logical: 'parens',
+      prop: 'parens'
+    }],
     'react/no-danger': 1,
     'react/no-did-mount-set-state': 1,
     'react/no-did-update-set-state': 1,
@@ -45,6 +53,7 @@ module.exports = {
     'react/no-typos': 1,
     'react/no-unused-prop-types': 1,
     'react/no-unused-state': 1,
+    'react/react-in-jsx-scope': 0,
     'react/self-closing-comp': [1, {
       component: true,
       html: true
