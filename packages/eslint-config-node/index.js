@@ -20,6 +20,7 @@ module.exports = {
     'node/no-new-require': 1,
     'node/no-path-concat': 1,
     'node/no-process-exit': 1,
+    'node/no-unpublished-require': 0,
 
     // Stylistic Issues
     'node/callback-return': 1,

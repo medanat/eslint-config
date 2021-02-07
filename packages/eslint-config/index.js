@@ -60,11 +60,26 @@ module.exports = {
     'computed-property-spacing': 1,
     'eol-last': 1,
     'func-call-spacing': 1,
-    indent: [1, 2, { VariableDeclarator: { var: 2, let: 2, const: 3 }, SwitchCase: 1, ObjectExpression: 'first', ImportDeclaration: 'first' }],
+    'func-style': [1, 'declaration', {
+      allowArrowFunctions: false
+    }],
+    indent: [1, 2, {
+      offsetTernaryExpressions: true,
+      VariableDeclarator: { var: 2, let: 2, const: 3 },
+      SwitchCase: 1,
+      ObjectExpression: 'first',
+      ImportDeclaration: 'first'
+    }],
     'jsx-quotes': [1, 'prefer-single'],
     'key-spacing': 1,
     'keyword-spacing': 1,
     'linebreak-style': [1, 'unix'],
+    'max-len': [1, {
+      code: 100,
+      ignoreUrls: true,
+      ignoreStrings: true,
+      ignoreRegExpLiterals: true
+    }],
     'no-lonely-if': 1,
     'no-multiple-empty-lines': [1, { max: 1, maxEOF: 0, maxBOF: 0 }],
     'no-tabs': 1,
