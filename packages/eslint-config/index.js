@@ -105,6 +105,10 @@ module.exports = {
     quotes: [1, 'single', { avoidEscape: true, allowTemplateLiterals: true }],
     'semi-spacing': 1,
     semi: [1, 'always'],
+    'multiline-ternary': [1, 'always-multiline'],
+    'no-unneeded-ternary': [1, {
+      defaultAssignment: false
+    }],
     'one-var': [1, {
       initialized: 'never'
     }],

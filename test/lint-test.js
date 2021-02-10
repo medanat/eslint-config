@@ -8,11 +8,15 @@ four();
 
 const firstVar = 1;
 const secondVar = 2;
+const thidVar = firstVar || null;
 
 firstVar + secondVar;
 
-const x = two() ?
-    4 : 5;
+const x = two()
+  ? 4
+  : (3 *
+    4 *
+    5);
 
 one(x);
 
@@ -22,5 +26,5 @@ const funcMap = {
 
 function myFunc() {}
 
-myFunc();
+myFunc(thidVar);
 funcMap.one();
