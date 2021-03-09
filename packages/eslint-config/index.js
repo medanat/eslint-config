@@ -50,6 +50,7 @@ module.exports = {
     yoda: [1, 'never', { exceptRange: true }],
 
     /* Stylistic Issues */
+    'array-bracket-newline': [1, 'consistent'],
     'array-bracket-spacing': [1, 'never'],
     'array-callback-return': 1,
     'block-spacing': 1,
@@ -85,6 +86,9 @@ module.exports = {
     'no-tabs': 1,
     'no-trailing-spaces': 1,
     'no-underscore-dangle': 1,
+    'object-curly-newline': [1, {
+      consistent: true
+    }],
     'object-curly-spacing': [1, 'always'],
     'one-var-declaration-per-line': [1, 'always'],
     'padded-blocks': [1, 'never', { allowSingleLineBlocks: false }],
