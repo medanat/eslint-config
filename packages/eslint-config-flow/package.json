@@ -24,7 +24,7 @@
   "dependencies": {
     "@babel/eslint-parser": "7.13.14",
     "@babel/eslint-plugin": "7.13.10",
-    "eslint-plugin-flowtype": "5.4.0"
+    "eslint-plugin-flowtype": "5.6.0"
   },
   "peerDependencies": {
     "@medanat/eslint-config": "^3.0.4",
