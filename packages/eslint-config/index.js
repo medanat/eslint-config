@@ -106,7 +106,7 @@ module.exports = {
       next: 'return'
     }],
     'quote-props': [1, 'as-needed'],
-    quotes: [1, 'single', { avoidEscape: true, allowTemplateLiterals: true }],
+    quotes: [1, 'single', { avoidEscape: true }],
     'semi-spacing': 1,
     semi: [1, 'always'],
     'multiline-ternary': [1, 'always-multiline'],

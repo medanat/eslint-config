@@ -24,7 +24,17 @@ const funcMap = {
   one: () => {}
 };
 
+const multiLineQuote = `
+  multi
+    line
+      string
+`;
+
+const singleLineQuote = 'asd';
+
 function myFunc() {}
 
 myFunc(thidVar);
+myFunc(multiLineQuote);
+myFunc(singleLineQuote);
 funcMap.one();
