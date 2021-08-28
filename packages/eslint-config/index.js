@@ -103,10 +103,14 @@ module.exports = {
     }, {
       blankLine: 'always',
       prev: '*',
+      next: 'function'
+    }, {
+      blankLine: 'always',
+      prev: '*',
       next: 'return'
     }],
     'quote-props': [1, 'as-needed'],
-    quotes: [1, 'single', { avoidEscape: true }],
+    quotes: [1, 'single', { allowTemplateLiterals: false, avoidEscape: true }],
     'semi-spacing': 1,
     semi: [1, 'always'],
     'multiline-ternary': [1, 'always-multiline'],
