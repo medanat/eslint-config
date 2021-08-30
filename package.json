@@ -38,7 +38,7 @@
     "eslint-find-rules": "3.6.1",
     "eslint-plugin-flowtype": "5.9.1",
     "eslint-plugin-node": "11.1.0",
-    "eslint-plugin-react": "7.24.0",
+    "eslint-plugin-react": "7.25.1",
     "eslint-plugin-react-hooks": "4.2.0",
     "lerna": "4.0.0"
   },
