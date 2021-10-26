@@ -25,6 +25,7 @@
     "eslint-plugin-node": "11.1.0"
   },
   "peerDependencies": {
+    "@medanat/eslint-config": "^6.0.0",
     "eslint": "^8.1.0"
   },
   "engines": {
