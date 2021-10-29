@@ -38,7 +38,7 @@
     "@babel/preset-react": "7.14.5",
     "eslint": "8.1.0",
     "eslint-find-rules": "3.6.1",
-    "eslint-plugin-flowtype": "8.0.2",
+    "eslint-plugin-flowtype": "8.0.3",
     "eslint-plugin-node": "11.1.0",
     "eslint-plugin-react": "7.26.1",
     "eslint-plugin-react-hooks": "4.2.0",
