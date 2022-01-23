@@ -31,7 +31,7 @@
   },
   "homepage": "https://github.com/medanat/eslint-config#readme",
   "devDependencies": {
-    "@babel/core": "7.16.10",
+    "@babel/core": "7.16.12",
     "@babel/eslint-parser": "7.16.5",
     "@babel/eslint-plugin": "7.16.5",
     "@babel/plugin-syntax-flow": "7.16.7",
@@ -45,7 +45,7 @@
     "lerna": "4.0.0"
   },
   "peerDependencies": {
-    "eslint": "^8.6.0"
+    "eslint": "^8.7.0"
   },
   "engines": {
     "node": ">= 12"
