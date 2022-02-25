@@ -24,7 +24,7 @@
   "dependencies": {
     "@babel/eslint-parser": "7.17.0",
     "@babel/eslint-plugin": "7.16.5",
-    "eslint-plugin-react": "7.28.0",
+    "eslint-plugin-react": "7.29.0",
     "eslint-plugin-react-hooks": "4.3.0"
   },
   "peerDependencies": {
