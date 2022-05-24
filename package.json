@@ -42,12 +42,12 @@
     "eslint-plugin-node": "11.1.0",
     "eslint-plugin-react": "7.30.0",
     "eslint-plugin-react-hooks": "4.5.0",
-    "lerna": "4.0.0"
+    "lerna": "5.0.0"
   },
   "peerDependencies": {
-    "eslint": "^8.7.0"
+    "eslint": "^8.16.0"
   },
   "engines": {
-    "node": ">= 12"
+    "node": ">= 14"
   }
 }
