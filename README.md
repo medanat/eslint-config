@@ -50,13 +50,24 @@ npm i --save-dev eslint @medanat/eslint-config @medanat/eslint-config-flow
 }
 ```
 
-### All together now
+### For Storybook environments
 ```
-npm i --save-dev eslint @medanat/eslint-config @medanat/eslint-config-flow @medanat/eslint-config-react
+npm i --save-dev eslint @medanat/eslint-config @medanat/eslint-config-storybook
 ```
 
 ```
 {
-  "extends": ["@medanat", "@medanat/react", "@medanat/flow"]
+  "extends": ["@medanat", "@medanat/storybook"]
+}
+```
+
+### All together now
+```
+npm i --save-dev eslint @medanat/eslint-config @medanat/eslint-config-flow @medanat/eslint-config-react @medanat/eslint-config-storybook
+```
+
+```
+{
+  "extends": ["@medanat", "@medanat/react", "@medanat/flow", "@medanat/storybook"]
 }
 ```

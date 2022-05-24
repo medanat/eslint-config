@@ -1,0 +1,33 @@
+{
+  "name": "@medanat/eslint-config-storybook",
+  "version": "6.2.0",
+  "description": "Opinionated eslint configuration",
+  "private": false,
+  "publishConfig": {
+    "access": "public"
+  },
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/medanat/eslint-config.git"
+  },
+  "keywords": [
+    "eslint",
+    "medanat"
+  ],
+  "author": "Yazan Medanat <medanat+npm@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/medanat/eslint-config/issues"
+  },
+  "homepage": "https://github.com/medanat/eslint-config#readme",
+  "dependencies": {
+    "eslint-plugin-storybook": "0.5.12"
+  },
+  "peerDependencies": {
+    "eslint": "^8.16.0"
+  },
+  "engines": {
+    "node": ">= 14"
+  }
+}
