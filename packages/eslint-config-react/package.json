@@ -28,9 +28,10 @@
     "eslint-plugin-react-hooks": "4.5.0"
   },
   "peerDependencies": {
-    "eslint": "^8.7.0"
+    "eslint": "^8.16.0",
+    "react": "^18.1.0"
   },
   "engines": {
-    "node": ">= 12"
+    "node": ">= 14"
   }
 }

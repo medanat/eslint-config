@@ -23,9 +23,9 @@
   "homepage": "https://github.com/medanat/eslint-config#readme",
   "peerDependencies": {
     "@medanat/eslint-config": "^6.0.0",
-    "eslint": "^8.7.0"
+    "eslint": "^8.16.0"
   },
   "engines": {
-    "node": ">= 12"
+    "node": ">= 14"
   }
 }
