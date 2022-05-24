@@ -29,7 +29,7 @@ module.exports = {
     'dot-notation': 1,
     eqeqeq: 1,
     'guard-for-in': 1,
-    'new-cap': 1,
+    'new-cap': 0,
     'no-alert': 1,
     'no-await-in-loop': 1,
     'no-caller': 1,
