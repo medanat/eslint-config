@@ -29,7 +29,9 @@ module.exports = {
     'dot-notation': 1,
     eqeqeq: 1,
     'guard-for-in': 1,
+    'new-cap': 1,
     'no-alert': 1,
+    'no-await-in-loop': 1,
     'no-caller': 1,
     'no-div-regex': 1,
     'no-else-return': 1,
@@ -108,6 +110,10 @@ module.exports = {
       blankLine: 'always',
       prev: '*',
       next: 'return'
+    }, {
+      blankLine: 'always',
+      prev: '*',
+      next: 'if'
     }],
     'quote-props': [1, 'as-needed'],
     quotes: [1, 'single', { allowTemplateLiterals: false, avoidEscape: true }],
