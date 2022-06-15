@@ -41,7 +41,7 @@
     "eslint-plugin-flowtype": "8.0.3",
     "eslint-plugin-node": "11.1.0",
     "eslint-plugin-react": "7.30.0",
-    "eslint-plugin-react-hooks": "4.5.0",
+    "eslint-plugin-react-hooks": "4.6.0",
     "eslint-plugin-storybook": "0.5.12",
     "lerna": "5.1.2"
   },
