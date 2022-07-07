@@ -43,7 +43,7 @@
     "eslint-plugin-react": "7.30.1",
     "eslint-plugin-react-hooks": "4.6.0",
     "eslint-plugin-storybook": "0.5.13",
-    "lerna": "5.1.6"
+    "lerna": "5.1.7"
   },
   "peerDependencies": {
     "eslint": "^8.16.0"
