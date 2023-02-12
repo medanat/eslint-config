@@ -78,7 +78,7 @@ module.exports = {
     'keyword-spacing': 1,
     'linebreak-style': [1, 'unix'],
     'max-len': [1, {
-      code: 100,
+      code: 120,
       ignoreUrls: true,
       ignoreStrings: true,
       ignoreRegExpLiterals: true
