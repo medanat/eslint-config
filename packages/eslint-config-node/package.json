@@ -25,9 +25,10 @@
     "eslint-plugin-node": "11.1.0"
   },
   "peerDependencies": {
-    "eslint": "^8.34.0"
+    "eslint": "^8.33.0"
   },
   "engines": {
     "node": ">= 14"
-  }
+  },
+  "gitHead": "abb319a142977a63e960c31b5aeefebe84d1c0ce"
 }
