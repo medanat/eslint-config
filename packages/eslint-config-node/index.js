@@ -1,14 +1,14 @@
 module.exports = {
   root: true,
   plugins: [
-    'node'
+    'n'
   ],
   env: {
     node: true,
     mocha: true
   },
   extends: [
-    'plugin:node/recommended'
+    'plugin:n/recommended'
   ],
   parserOptions: {
     ecmaVersion: 'latest',
@@ -16,17 +16,17 @@ module.exports = {
   },
   rules: {
     // Possible Errors
-    'node/handle-callback-err': 1,
-    'node/no-new-require': 1,
-    'node/no-path-concat': 1,
-    'node/no-process-exit': 1,
-    'node/no-unpublished-require': 0,
+    'n/handle-callback-err': 1,
+    'n/no-new-require': 1,
+    'n/no-path-concat': 1,
+    'n/no-process-exit': 1,
+    'n/no-unpublished-require': 0,
 
     // Stylistic Issues
-    'node/callback-return': 1,
-    'node/no-mixed-requires': 0,
-    'node/no-process-env': 0,
-    'node/no-restricted-require': 1,
-    'node/no-sync': 1
+    'n/callback-return': 1,
+    'n/no-mixed-requires': 0,
+    'n/no-process-env': 0,
+    'n/no-restricted-require': 1,
+    'n/no-sync': 1
   }
 };
