@@ -31,7 +31,7 @@
   },
   "homepage": "https://github.com/medanat/eslint-config#readme",
   "devDependencies": {
-    "@babel/core": "7.21.8",
+    "@babel/core": "7.22.1",
     "@babel/eslint-parser": "7.21.8",
     "@babel/eslint-plugin": "7.19.1",
     "@babel/plugin-syntax-flow": "7.21.4",
