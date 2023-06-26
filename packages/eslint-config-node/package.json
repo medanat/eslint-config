@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/medanat/eslint-config#readme",
   "dependencies": {
-    "eslint-plugin-n": "16.0.0"
+    "eslint-plugin-n": "16.0.1"
   },
   "peerDependencies": {
     "eslint": "^8.34.0"
