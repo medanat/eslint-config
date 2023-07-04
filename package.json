@@ -32,7 +32,7 @@
   "homepage": "https://github.com/medanat/eslint-config#readme",
   "devDependencies": {
     "@babel/core": "7.22.6",
-    "@babel/eslint-parser": "7.22.5",
+    "@babel/eslint-parser": "7.22.6",
     "@babel/eslint-plugin": "7.22.5",
     "@babel/plugin-syntax-flow": "7.22.5",
     "@babel/preset-react": "7.22.5",
