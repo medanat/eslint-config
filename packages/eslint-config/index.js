@@ -45,7 +45,6 @@ module.exports = {
     'no-multi-spaces': 1,
     'no-param-reassign': 1,
     'no-return-assign': 1,
-    'no-return-await': 1,
     'no-useless-call': 1,
     radix: 1,
     'vars-on-top': 1,
