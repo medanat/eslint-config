@@ -30,6 +30,13 @@
     "url": "https://github.com/medanat/eslint-config/issues"
   },
   "homepage": "https://github.com/medanat/eslint-config#readme",
+  "workspaces": [
+    "packages/eslint-config",
+    "packages/eslint-config-flow",
+    "packages/eslint-config-node",
+    "packages/eslint-config-react",
+    "packages/eslint-config-storybook"
+  ],
   "devDependencies": {
     "@babel/core": "7.22.17",
     "@babel/eslint-parser": "7.22.15",
