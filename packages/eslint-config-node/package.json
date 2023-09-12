@@ -28,7 +28,7 @@
     "eslint": "^8.34.0"
   },
   "engines": {
-    "node": ">= 14"
+    "node": ">= 16"
   },
   "gitHead": "abb319a142977a63e960c31b5aeefebe84d1c0ce"
 }
