@@ -80,6 +80,7 @@ module.exports = {
       code: 120,
       ignoreUrls: true,
       ignoreStrings: true,
+      ignoreTemplateLiterals: true,
       ignoreRegExpLiterals: true
     }],
     'no-lonely-if': 1,
