@@ -29,6 +29,6 @@ module.exports = {
     'n/no-restricted-require': 1,
     'n/no-sync': 1,
 
-    'no-unsupported-features/node-builtins': 0
+    'n/no-unsupported-features/node-builtins': 0
   }
 };
