@@ -38,7 +38,7 @@
     "packages/eslint-config-storybook"
   ],
   "devDependencies": {
-    "@babel/core": "7.24.7",
+    "@babel/core": "7.24.8",
     "@babel/eslint-parser": "7.24.8",
     "@babel/eslint-plugin": "7.24.7",
     "@babel/plugin-syntax-flow": "7.24.7",
