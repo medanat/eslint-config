@@ -41,7 +41,7 @@
     "@babel/core": "7.25.9",
     "@babel/eslint-parser": "7.25.9",
     "@babel/eslint-plugin": "7.25.9",
-    "@babel/plugin-syntax-flow": "7.25.9",
+    "@babel/plugin-syntax-flow": "7.26.0",
     "@babel/preset-react": "7.25.9",
     "eslint": "8.57.0",
     "eslint-find-rules": "4.2.0",
