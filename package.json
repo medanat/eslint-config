@@ -7,6 +7,7 @@
     "access": "public"
   },
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "repair": "lerna repair",
     "outdated": "npm outdated && npx lerna exec --no-bail -- npm outdated",
