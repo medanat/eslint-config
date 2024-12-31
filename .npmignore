@@ -1,3 +1,9 @@
 test/**/*
 node_modules/**/*
-**/.eslintrc
+**/eslint.config.js
+eslint.config.js
+.vscode/**
+.github/**
+notes.md
+README.md
+package-lock.json
