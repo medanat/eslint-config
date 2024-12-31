@@ -1,9 +1,0 @@
-{
-  "extends": [
-    "./packages/eslint-config/index.js",
-    "./packages/eslint-config-flow/index.js",
-    "./packages/eslint-config-node/index.js",
-    "./packages/eslint-config-react/index.js",
-    "./packages/eslint-config-storybook/index.js"
-  ]
-}
