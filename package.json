@@ -39,11 +39,6 @@
     "packages/eslint-config-storybook"
   ],
   "devDependencies": {
-    "@babel/core": "7.26.0",
-    "@babel/eslint-parser": "7.25.9",
-    "@babel/eslint-plugin": "7.25.9",
-    "@babel/plugin-syntax-flow": "7.26.0",
-    "@babel/preset-react": "7.26.3",
     "eslint": "9.17.0",
     "eslint-plugin-n": "17.15.1",
     "eslint-plugin-react": "7.37.3",
