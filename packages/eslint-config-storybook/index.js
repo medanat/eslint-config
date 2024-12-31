@@ -1,5 +1,5 @@
-module.exports = {
-  extends: [
-    'plugin:storybook/recommended'
-  ]
-};
+import storybookPlugin from 'eslint-plugin-storybook';
+
+export default [
+  ...storybookPlugin.configs['flat/recommended']
+];
