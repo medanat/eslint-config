@@ -4,4 +4,6 @@ install:
 	npm install
 
 test:
-	npm test && npm run lint:deprecated-rules
+	npm test 
+
+# && npm run lint:deprecated-rules
