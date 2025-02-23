@@ -39,7 +39,7 @@
     "packages/eslint-config-storybook"
   ],
   "devDependencies": {
-    "eslint": "9.20.1",
+    "eslint": "9.21.0",
     "eslint-plugin-n": "17.15.1",
     "eslint-plugin-react": "7.37.4",
     "eslint-plugin-react-hooks": "5.1.0",
