@@ -25,7 +25,7 @@
   "dependencies": {
     "@eslint/eslintrc": "3.3.1",
     "eslint-plugin-ft-flow": "3.0.11",
-    "hermes-eslint": "0.27.0"
+    "hermes-eslint": "0.28.0"
   },
   "peerDependencies": {
     "eslint": "^9.17.0"
