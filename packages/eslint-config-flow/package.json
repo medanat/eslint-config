@@ -1,6 +1,6 @@
 {
   "name": "@medanat/eslint-config-flow",
-  "version": "9.2.0",
+  "version": "9.2.1",
   "description": "Opinionated eslint configuration",
   "private": false,
   "publishConfig": {
