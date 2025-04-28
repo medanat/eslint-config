@@ -1,14 +1,11 @@
-import { FlatCompat } from '@eslint/eslintrc';
 import reactPlugin from 'eslint-plugin-react';
 import reactHooksPlugin from 'eslint-plugin-react-hooks';
 import globals from 'globals';
 
-const compat = new FlatCompat();
-
 export default [
   reactPlugin.configs.flat.recommended,
   reactPlugin.configs.flat['jsx-runtime'],
-  ...compat.config(reactHooksPlugin.configs.recommended),
+  reactHooksPlugin.configs.recommended,
   {
     plugins: {
       reactPlugin
