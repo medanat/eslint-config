@@ -1,6 +1,6 @@
 {
   "name": "@medanat/eslint-config-storybook",
-  "version": "9.2.1",
+  "version": "9.2.2",
   "description": "Opinionated eslint configuration",
   "private": false,
   "publishConfig": {
