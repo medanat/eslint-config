@@ -47,7 +47,7 @@
     "lerna": "8.2.2"
   },
   "peerDependencies": {
-    "eslint": "^9.17.0"
+    "eslint": "^9.29.0"
   },
   "engines": {
     "node": ">= 20"
