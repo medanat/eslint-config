@@ -5,7 +5,7 @@ import globals from 'globals';
 export default [
   reactPlugin.configs.flat.recommended,
   reactPlugin.configs.flat['jsx-runtime'],
-  reactHooksPlugin.configs.recommended,
+  ...reactHooksPlugin.configs['flat/recommended'],
   {
     plugins: {
       reactPlugin
