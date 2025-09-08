@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/medanat/eslint-config#readme",
   "dependencies": {
-    "eslint-plugin-storybook": "9.1.4"
+    "eslint-plugin-storybook": "9.1.5"
   },
   "peerDependencies": {
     "eslint": "^9.29.0"
