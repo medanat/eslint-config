@@ -1,6 +1,6 @@
 {
   "name": "@medanat/eslint-config-react",
-  "version": "9.3.0",
+  "version": "9.4.0",
   "description": "Opinionated eslint configuration",
   "private": false,
   "publishConfig": {
