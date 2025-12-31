@@ -13,7 +13,7 @@
     "outdated": "npm outdated && npx lerna exec --no-bail -- npm outdated",
     "lint": "eslint ./",
     "lint-fix": "npm run lint -- --fix",
-    "lint:deprecated-rules": "eslint-find-rules -d ./packages/eslint-config/index.js",
+    "lint:deprecated-rules": "eslint-find-rules -d ./packages/eslint-config/index.js --flatConfig",
     "publish": "npx lerna publish",
     "test": "npm run lint"
   },
@@ -40,6 +40,7 @@
   ],
   "devDependencies": {
     "eslint": "9.39.2",
+    "eslint-find-rules": "5.0.0",
     "eslint-plugin-n": "17.23.1",
     "eslint-plugin-react": "7.37.5",
     "eslint-plugin-react-hooks": "7.0.1",
