@@ -1,17 +1,19 @@
 import js from '@eslint/js';
 import json from '@eslint/json';
+import stylistic from '@stylistic/eslint-plugin';
 import globals from 'globals';
 
 export default [
   js.configs.recommended,
   json.configs.recommended,
+  stylistic.configs.all,
   {
     rules: {
+
       /* Strict Mode */
       strict: 0,
 
       /* Possible Errors are covered in "eslint:recommended" */
-      'no-extra-parens': 0,
       'no-prototype-builtins': 1,
       'no-template-curly-in-string': 1,
       'no-unsafe-negation': 1,
@@ -22,7 +24,6 @@ export default [
       'consistent-return': 1,
       curly: 1,
       'default-case': 1,
-      'dot-location': [1, 'property'],
       'dot-notation': 1,
       eqeqeq: 1,
       'guard-for-in': 1,
@@ -36,10 +37,8 @@ export default [
       'no-extend-native': 1,
       'no-extra-bind': 1,
       'no-extra-label': 1,
-      'no-floating-decimal': 1,
       'no-implicit-coercion': 1,
       'no-implicit-globals': 1,
-      'no-multi-spaces': 1,
       'no-param-reassign': 1,
       'no-return-assign': 1,
       'no-useless-call': 1,
@@ -47,51 +46,55 @@ export default [
       'vars-on-top': 1,
       yoda: [1, 'never', { exceptRange: true }],
 
-      /* Stylistic Issues */
-      'array-bracket-newline': [1, 'consistent'],
-      'array-bracket-spacing': [1, 'never'],
-      'array-callback-return': 1,
-      'block-spacing': 1,
-      'brace-style': [1, '1tbs', { allowSingleLine: true }],
-      'comma-dangle': 1,
-      'comma-spacing': 1,
-      'comma-style': 1,
-      'computed-property-spacing': 1,
-      'eol-last': 1,
-      'func-call-spacing': 1,
-      'func-style': [1, 'declaration', {
-        allowArrowFunctions: false
-      }],
-      indent: [1, 2, {
+      /* @stylistic Issues */
+      '@stylistic/array-bracket-newline': [1, 'consistent'],
+      '@stylistic/array-bracket-spacing': [1, 'never'],
+      '@stylistic/array-element-newline': [1, 'consistent'],
+      '@stylistic/arrow-parens': [1, 'as-needed'],
+      '@stylistic/arrow-spacing': 1,
+      '@stylistic/block-spacing': 1,
+      '@stylistic/brace-style': [1, '1tbs', { allowSingleLine: true }],
+      '@stylistic/comma-dangle': [1, 'never'],
+      '@stylistic/comma-spacing': 1,
+      '@stylistic/comma-style': 1,
+      '@stylistic/computed-property-spacing': 1,
+      '@stylistic/dot-location': [1, 'property'],
+      '@stylistic/eol-last': 1,
+      '@stylistic/function-call-spacing': 1,
+      '@stylistic/indent': [1, 2, {
         offsetTernaryExpressions: true,
         VariableDeclarator: { var: 2, let: 2, const: 3 },
         SwitchCase: 1,
         ObjectExpression: 'first',
         ImportDeclaration: 'first'
       }],
-      'jsx-quotes': [1, 'prefer-single'],
-      'key-spacing': 1,
-      'keyword-spacing': 1,
-      'linebreak-style': [1, 'unix'],
-      'max-len': [1, {
+      '@stylistic/jsx-quotes': [1, 'prefer-single'],
+      '@stylistic/key-spacing': 1,
+      '@stylistic/keyword-spacing': 1,
+      '@stylistic/linebreak-style': [1, 'unix'],
+      '@stylistic/max-len': [1, {
         code: 120,
         ignoreUrls: true,
         ignoreStrings: true,
         ignoreTemplateLiterals: true,
         ignoreRegExpLiterals: true
       }],
-      'no-lonely-if': 1,
-      'no-multiple-empty-lines': [1, { max: 1, maxEOF: 0, maxBOF: 0 }],
-      'no-tabs': 1,
-      'no-trailing-spaces': 1,
-      'no-underscore-dangle': 1,
-      'object-curly-newline': [1, {
+      '@stylistic/multiline-ternary': [1, 'always-multiline'],
+      '@stylistic/no-confusing-arrow': [1, { allowParens: true }],
+      '@stylistic/no-extra-parens': 0,
+      '@stylistic/no-floating-decimal': 1,
+      '@stylistic/no-multi-spaces': 1,
+      '@stylistic/no-multiple-empty-lines': [1, { max: 1, maxEOF: 0, maxBOF: 0 }],
+      '@stylistic/no-tabs': 1,
+      '@stylistic/no-trailing-spaces': 1,
+      '@stylistic/object-curly-newline': [1, {
         consistent: true
       }],
-      'object-curly-spacing': [1, 'always'],
-      'one-var-declaration-per-line': [1, 'always'],
-      'padded-blocks': [1, 'never', { allowSingleLineBlocks: false }],
-      'padding-line-between-statements': [1, {
+      '@stylistic/object-curly-spacing': [1, 'always'],
+      '@stylistic/object-property-newline': [1, { allowAllPropertiesOnSameLine: true }],
+      '@stylistic/one-var-declaration-per-line': [1, 'always'],
+      '@stylistic/padded-blocks': [1, 'never', { allowSingleLineBlocks: false }],
+      '@stylistic/padding-line-between-statements': [1, {
         blankLine: 'always',
         prev: ['const', 'let', 'var'],
         next: '*'
@@ -112,11 +115,27 @@ export default [
         prev: '*',
         next: 'if'
       }],
-      'quote-props': [1, 'as-needed'],
-      quotes: [1, 'single', { allowTemplateLiterals: false, avoidEscape: true }],
-      'semi-spacing': 1,
-      semi: [1, 'always'],
-      'multiline-ternary': [1, 'always-multiline'],
+      '@stylistic/semi-spacing': 1,
+      '@stylistic/quotes': [1, 'single', { allowTemplateLiterals: 'never', avoidEscape: true }],
+      '@stylistic/quote-props': [1, 'as-needed'],
+      '@stylistic/semi': [1, 'always'],
+      '@stylistic/space-before-blocks': 1,
+      '@stylistic/space-before-function-paren': [1, { anonymous: 'always', named: 'never' }],
+      '@stylistic/space-in-parens': 1,
+      '@stylistic/space-infix-ops': 1,
+      '@stylistic/space-unary-ops': 1,
+      '@stylistic/spaced-comment': 1,
+      '@stylistic/template-curly-spacing': 1,
+      '@stylistic/wrap-regex': 1,
+
+      /* Stylistic Issues */
+      'array-callback-return': 1,
+      'func-style': [1, 'declaration', {
+        allowArrowFunctions: false
+      }],
+      'no-lonely-if': 1,
+      'no-underscore-dangle': 1,
+
       'no-unneeded-ternary': [1, {
         defaultAssignment: false
       }],
@@ -124,13 +143,6 @@ export default [
         initialized: 'never'
       }],
       'sort-vars': 0,
-      'space-before-blocks': 1,
-      'space-before-function-paren': [1, { anonymous: 'always', named: 'never' }],
-      'space-in-parens': 1,
-      'space-infix-ops': 1,
-      'space-unary-ops': 1,
-      'spaced-comment': 1,
-      'wrap-regex': 1,
 
       /* Variables */
       'init-declarations': 1,
@@ -150,17 +162,13 @@ export default [
 
       /* ES6 */
       'arrow-body-style': 1,
-      'arrow-parens': [1, 'as-needed'],
-      'arrow-spacing': 1,
-      'no-confusing-arrow': [1, { allowParens: true }],
       'no-duplicate-imports': [1, { includeExports: true }],
       'no-useless-computed-key': 1,
       'no-useless-rename': 1,
       'no-var': 1,
       'object-shorthand': [1, 'properties'],
       'prefer-const': 1,
-      'prefer-template': 1,
-      'template-curly-spacing': 1
+      'prefer-template': 1
     },
     languageOptions: {
       sourceType: 'module',
