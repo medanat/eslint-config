@@ -8,13 +8,15 @@ npm i --save-dev eslint @medanat/eslint-config
 
 ## Usage
 
-In your `.eslintrc`:
+In your `eslint.config.js`:
 
 ### For plain JS environments
-```
-{
-  "extends": ["@medanat"]
-}
+```js
+import eslintConfig from '@medanat/eslint-config';
+
+export default [
+  ...eslintConfig
+];
 ```
 
 ### For Node.js environments
@@ -22,10 +24,14 @@ In your `.eslintrc`:
 npm i --save-dev eslint @medanat/eslint-config @medanat/eslint-config-node
 ```
 
-```
-{
-  "extends": ["@medanat", "@medanat/node"]
-}
+```js
+import eslintConfig from '@medanat/eslint-config';
+import eslintConfigNode from '@medanat/eslint-config-node';
+
+export default [
+  ...eslintConfig,
+  ...eslintConfigNode
+];
 ```
 
 ### For React environments
@@ -33,10 +39,14 @@ npm i --save-dev eslint @medanat/eslint-config @medanat/eslint-config-node
 npm i --save-dev eslint @medanat/eslint-config @medanat/eslint-config-react
 ```
 
-```
-{
-  "extends": ["@medanat", "@medanat/react"]
-}
+```js
+import eslintConfig from '@medanat/eslint-config';
+import eslintConfigReact from '@medanat/eslint-config-react';
+
+export default [
+  ...eslintConfig,
+  ...eslintConfigReact
+];
 ```
 
 ### For Flow environments
@@ -44,10 +54,14 @@ npm i --save-dev eslint @medanat/eslint-config @medanat/eslint-config-react
 npm i --save-dev eslint @medanat/eslint-config @medanat/eslint-config-flow
 ```
 
-```
-{
-  "extends": ["@medanat", "@medanat/flow"]
-}
+```js
+import eslintConfig from '@medanat/eslint-config';
+import eslintConfigFlow from '@medanat/eslint-config-flow';
+
+export default [
+  ...eslintConfig,
+  ...eslintConfigFlow
+];
 ```
 
 ### For Storybook environments
@@ -55,10 +69,14 @@ npm i --save-dev eslint @medanat/eslint-config @medanat/eslint-config-flow
 npm i --save-dev eslint @medanat/eslint-config @medanat/eslint-config-storybook
 ```
 
-```
-{
-  "extends": ["@medanat", "@medanat/storybook"]
-}
+```js
+import eslintConfig from '@medanat/eslint-config';
+import eslintConfigStorybook from '@medanat/eslint-config-storybook';
+
+export default [
+  ...eslintConfig,
+  ...eslintConfigStorybook
+];
 ```
 
 ### All together now
@@ -66,8 +84,16 @@ npm i --save-dev eslint @medanat/eslint-config @medanat/eslint-config-storybook
 npm i --save-dev eslint @medanat/eslint-config @medanat/eslint-config-flow @medanat/eslint-config-react @medanat/eslint-config-storybook
 ```
 
-```
-{
-  "extends": ["@medanat", "@medanat/react", "@medanat/flow", "@medanat/storybook"]
-}
+```js
+import eslintConfig from '@medanat/eslint-config';
+import eslintConfigReact from '@medanat/eslint-config-react';
+import eslintConfigFlow from '@medanat/eslint-config-flow';
+import eslintConfigStorybook from '@medanat/eslint-config-storybook';
+
+export default [
+  ...eslintConfig,
+  ...eslintConfigReact,
+  ...eslintConfigFlow,
+  ...eslintConfigStorybook
+];
 ```
