@@ -48,9 +48,9 @@
     "lerna": "9.0.3"
   },
   "peerDependencies": {
-    "eslint": "^9.29.0"
+    "eslint": "^9.39.2"
   },
   "engines": {
-    "node": ">= 20"
+    "node": ">= 24"
   }
 }

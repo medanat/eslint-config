@@ -28,11 +28,11 @@
     "globals": "16.5.0"
   },
   "peerDependencies": {
-    "eslint": "^9.29.0",
+    "eslint": "^9.39.2",
     "react": "^19.0.0"
   },
   "engines": {
-    "node": ">= 20"
+    "node": ">= 24"
   },
   "gitHead": "a6ce6abeb6d669be94e40d001073ae9aec4cabb2"
 }
