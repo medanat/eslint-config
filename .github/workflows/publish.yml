@@ -1,0 +1,39 @@
+name: Publish
+
+on:
+  workflow_dispatch:
+    inputs:
+      release-type:
+        description: 'Define release type: patch, minor, or major'
+        required: true
+        default: 'patch'
+        type: choice
+        options:
+          - patch
+          - minor
+          - major
+
+permissions:
+  contents: read
+
+jobs:
+  publish:
+    name: Publish Package
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      id-token: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+        with:
+            ref: master
+            fetch-depth: 1
+      - name: Setup Node.js
+        uses: actions/setup-node@v6
+      - name: Install Packages
+        run: npm ci --ignore-scripts
+      - name: Run Tests
+        run: npm test
+      - name: Publish Package
+        run: npx lerna publish ${{ github.event.inputs.release-type }} --force-publish -y --push=false --gitTagVersion=false
