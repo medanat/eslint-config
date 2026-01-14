@@ -49,7 +49,7 @@ export default [
       /* @stylistic Issues */
       '@stylistic/array-bracket-newline': [1, 'consistent'],
       '@stylistic/array-bracket-spacing': [1, 'never'],
-      '@stylistic/array-element-newline': [1, 'consistent'],
+      '@stylistic/array-element-newline': [0, 'consistent'],
       '@stylistic/arrow-parens': [1, 'as-needed'],
       '@stylistic/arrow-spacing': 1,
       '@stylistic/block-spacing': 1,
@@ -60,7 +60,9 @@ export default [
       '@stylistic/computed-property-spacing': 1,
       '@stylistic/dot-location': [1, 'property'],
       '@stylistic/eol-last': 1,
+      '@stylistic/function-call-argument-newline': [1, 'consistent'],
       '@stylistic/function-call-spacing': 1,
+      '@stylistic/function-paren-newline': [1, 'consistent'],
       '@stylistic/indent': [1, 2, {
         offsetTernaryExpressions: true,
         VariableDeclarator: { var: 2, let: 2, const: 3 },
@@ -72,6 +74,7 @@ export default [
       '@stylistic/key-spacing': 1,
       '@stylistic/keyword-spacing': 1,
       '@stylistic/linebreak-style': [1, 'unix'],
+      '@stylistic/lines-around-comment': [1, { allowBlockStart: true, ignorePattern: '@type|@param' }],
       '@stylistic/max-len': [1, {
         code: 120,
         ignoreUrls: true,
@@ -79,7 +82,9 @@ export default [
         ignoreTemplateLiterals: true,
         ignoreRegExpLiterals: true
       }],
+      '@stylistic/multiline-comment-style': [1, 'separate-lines'],
       '@stylistic/multiline-ternary': [1, 'always-multiline'],
+      '@stylistic/newline-per-chained-call': [1, { ignoreChainWithDepth: 5 }],
       '@stylistic/no-confusing-arrow': [1, { allowParens: true }],
       '@stylistic/no-extra-parens': 0,
       '@stylistic/no-floating-decimal': 1,
@@ -93,6 +98,7 @@ export default [
       '@stylistic/object-curly-spacing': [1, 'always'],
       '@stylistic/object-property-newline': [1, { allowAllPropertiesOnSameLine: true }],
       '@stylistic/one-var-declaration-per-line': [1, 'always'],
+      '@stylistic/operator-linebreak': [1, 'after', { overrides: { '?': 'before', ':': 'before', '||': 'before', '&&': 'before' } }],
       '@stylistic/padded-blocks': [1, 'never', { allowSingleLineBlocks: false }],
       '@stylistic/padding-line-between-statements': [1, {
         blankLine: 'always',
