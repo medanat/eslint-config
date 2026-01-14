@@ -31,6 +31,8 @@ jobs:
             fetch-depth: 1
       - name: Setup Node.js
         uses: actions/setup-node@395ad3262231945c25e8478fd5baf05154b1d79f # 6.1.0
+        with:
+          node-version: 24
       - name: Install Packages
         run: npm i --ignore-scripts
       - name: Run Tests
