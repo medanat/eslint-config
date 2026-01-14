@@ -37,5 +37,7 @@ jobs:
         run: npm i --ignore-scripts
       - name: Run Tests
         run: npm test
+      - name: Audit Signatures
+        run: npm audit signatures
       - name: Publish Package
         run: npx lerna publish ${{ github.event.inputs.release-type }} --force-publish -y --push=false --gitTagVersion=false
