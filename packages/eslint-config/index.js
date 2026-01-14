@@ -49,7 +49,7 @@ export default [
       /* @stylistic Issues */
       '@stylistic/array-bracket-newline': [1, 'consistent'],
       '@stylistic/array-bracket-spacing': [1, 'never'],
-      '@stylistic/array-element-newline': [0, 'consistent'],
+      '@stylistic/array-element-newline': [0, { consistent: false, multiline: false }],
       '@stylistic/arrow-parens': [1, 'as-needed'],
       '@stylistic/arrow-spacing': 1,
       '@stylistic/block-spacing': 1,
