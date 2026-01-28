@@ -24,7 +24,7 @@
   "homepage": "https://github.com/medanat/eslint-config#readme",
   "dependencies": {
     "eslint-plugin-n": "17.23.2",
-    "globals": "17.1.0"
+    "globals": "17.2.0"
   },
   "peerDependencies": {
     "eslint": "^9.39.2"
