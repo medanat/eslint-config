@@ -25,7 +25,7 @@
   "dependencies": {
     "eslint-plugin-react": "7.37.5",
     "eslint-plugin-react-hooks": "7.0.1",
-    "globals": "17.2.0"
+    "globals": "17.3.0"
   },
   "peerDependencies": {
     "eslint": "^9.39.2",
