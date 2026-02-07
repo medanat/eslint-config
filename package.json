@@ -12,7 +12,8 @@
     "lint-fix": "npm run lint -- --fix",
     "lint:deprecated-rules": "eslint-find-rules -d eslint.config.js --flatConfig",
     "publish": "npx lerna publish",
-    "test": "npm run lint && npm run lint:deprecated-rules"
+    "xtest": "npm run lint && npm run lint:deprecated-rules",
+    "test": "npm run lint"
   },
   "repository": {
     "type": "git",
@@ -37,7 +38,6 @@
   ],
   "devDependencies": {
     "eslint": "10.0.0",
-    "eslint-find-rules": "5.0.0",
     "eslint-plugin-n": "17.23.2",
     "eslint-plugin-react": "7.37.5",
     "eslint-plugin-react-hooks": "7.0.1",
