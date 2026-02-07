@@ -36,7 +36,7 @@
     "packages/eslint-config-storybook"
   ],
   "devDependencies": {
-    "eslint": "9.39.2",
+    "eslint": "10.0.0",
     "eslint-find-rules": "5.0.0",
     "eslint-plugin-n": "17.23.2",
     "eslint-plugin-react": "7.37.5",
