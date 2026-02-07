@@ -28,7 +28,7 @@
     "hermes-eslint": "0.33.3"
   },
   "peerDependencies": {
-    "eslint": "^9.39.2"
+    "eslint": "^10.0.0"
   },
   "engines": {
     "node": ">= 24"
