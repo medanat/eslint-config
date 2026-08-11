@@ -31,17 +31,16 @@
   "homepage": "https://github.com/medanat/eslint-config#readme",
   "workspaces": [
     "packages/eslint-config",
-    "packages/eslint-config-flow",
     "packages/eslint-config-node",
     "packages/eslint-config-react",
     "packages/eslint-config-storybook"
   ],
   "devDependencies": {
-    "eslint": "10.1.0",
-    "eslint-plugin-n": "17.24.0",
+    "eslint": "10.8.1",
+    "eslint-plugin-n": "18.3.0",
     "eslint-plugin-react-hooks": "7.1.1",
-    "eslint-plugin-storybook": "10.4.1",
-    "lerna": "9.0.7"
+    "eslint-plugin-storybook": "10.5.7",
+    "lerna": "10.0.0"
   },
   "peerDependencies": {
     "eslint": "^10.0.0"

@@ -4,13 +4,21 @@ import stylistic from '@stylistic/eslint-plugin';
 import globals from 'globals';
 
 export default [
-  js.configs.recommended,
-  json.configs.recommended,
-  stylistic.configs.all,
+  { ...js.configs.recommended, files: ['**/*.{js,mjs,cjs}'] },
   {
+    plugins: { json },
+    files: ['**/*.json'],
+    language: 'json/json',
+    rules: json.configs.recommended.rules
+  },
+  { plugins: stylistic.configs.all.plugins },
+  {
+    files: ['**/*.{js,mjs,cjs}'],
+    rules: stylistic.configs.all.rules
+  },
+  {
+    files: ['**/*.{js,mjs,cjs}'],
     rules: {
-
-      /* Strict Mode */
       strict: 0,
 
       /* Possible Errors are covered in "eslint:recommended" */

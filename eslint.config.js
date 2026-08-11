@@ -10,5 +10,5 @@ export default [
   ...eslintConfigNode,
   ...eslintConfigReact,
   ...eslintConfigStorybook,
-  { ignores: ['**/node_modules/*'] }
+  { ignores: ['**/node_modules/*', 'packages/eslint-config-flow/**'] }
 ];
