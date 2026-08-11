@@ -11,7 +11,7 @@
     "lint": "eslint ./",
     "lint-fix": "npm run lint -- --fix",
     "lint:deprecated-rules": "eslint-find-rules -d eslint.config.js --flatConfig",
-    "publish": "npx lerna publish",
+    "release": "npx lerna publish",
     "xtest": "npm run lint && npm run lint:deprecated-rules",
     "test": "npm run lint"
   },
