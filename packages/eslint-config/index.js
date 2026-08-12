@@ -8,6 +8,7 @@ export default [
   {
     plugins: { json },
     files: ['**/*.json'],
+    ignores: ['package-lock.json'],
     language: 'json/json',
     rules: json.configs.recommended.rules
   },
