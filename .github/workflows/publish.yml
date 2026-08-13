@@ -45,7 +45,7 @@ jobs:
       - name: Audit Signatures
         run: npm audit signatures
       - name: Bump Versions
-        run: npx lerna version ${{ github.event.inputs.release-type }} --force-publish -y --no-push --no-git-tag-version
+        run: npx lerna version ${{ github.event.inputs.release-type }} --force-publish -y --no-push
       - name: Publish Package
         run: npx lerna publish from-package -y
       - name: Create Release Pull Request
