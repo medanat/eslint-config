@@ -1,5 +1,5 @@
 import storybookPlugin from 'eslint-plugin-storybook';
 
-export default [
-  ...storybookPlugin.configs['flat/recommended']
-];
+const config = storybookPlugin.configs['flat/recommended'];
+
+export default /** @type {import('eslint').Linter.Config[]} */(config);

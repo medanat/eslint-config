@@ -3,6 +3,7 @@ import json from '@eslint/json';
 import stylistic from '@stylistic/eslint-plugin';
 import globals from 'globals';
 
+/** @type {import('eslint').Linter.Config[]} */
 export default [
   { ...js.configs.recommended, files: ['**/*.{js,mjs,cjs}'] },
   {

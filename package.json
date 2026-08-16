@@ -6,6 +6,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
+    "build": "lerna run build",
     "repair": "lerna repair",
     "outdated": "npm outdated && npx lerna exec --no-bail -- npm outdated",
     "lint": "eslint ./",
@@ -40,7 +41,8 @@
     "eslint-plugin-n": "18.3.0",
     "eslint-plugin-react-hooks": "7.1.1",
     "eslint-plugin-storybook": "^10.5.8",
-    "lerna": "10.0.0"
+    "lerna": "10.0.0",
+    "typescript": "7.0.2"
   },
   "peerDependencies": {
     "eslint": "^10.0.0"

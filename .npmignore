@@ -7,3 +7,5 @@ eslint.config.js
 notes.md
 README.md
 package-lock.json
+tsconfig.json
+tsconfig.declaration.json

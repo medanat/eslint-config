@@ -1,7 +1,8 @@
 import n from 'eslint-plugin-n';
 import globals from 'globals';
 
-export default [
+/** @type {import('eslint').Linter.Config[]} */
+const config = [
   n.configs['flat/recommended-script'],
   {
     rules: {
@@ -30,3 +31,5 @@ export default [
     }
   }
 ];
+
+export default config;

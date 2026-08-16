@@ -7,7 +7,11 @@
     "access": "public"
   },
   "main": "index.js",
+  "types": "./index.d.ts",
   "type": "module",
+  "scripts": {
+    "build": "tsc"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/medanat/eslint-config.git"

@@ -11,6 +11,7 @@ oldConfig.languageOptions.parserOptions = {
 };
 oldConfig.settings['ft-flow'].onlyFilesWithFlowAnnotation = true;
 
+/** @type {import('eslint').Linter.Config[]} */
 export default [
   oldConfig
 ];
