@@ -1,18 +1,10 @@
 import js from '@eslint/js';
-import json from '@eslint/json';
 import stylistic from '@stylistic/eslint-plugin';
 import globals from 'globals';
 
 /** @type {import('eslint').Linter.Config[]} */
-export default [
+const config = [
   { ...js.configs.recommended, files: ['**/*.{js,mjs,cjs}'] },
-  {
-    plugins: { json },
-    files: ['**/*.json'],
-    ignores: ['package-lock.json'],
-    language: 'json/json',
-    rules: json.configs.recommended.rules
-  },
   { plugins: stylistic.configs.all.plugins },
   {
     files: ['**/*.{js,mjs,cjs}'],
@@ -195,3 +187,5 @@ export default [
     }
   }
 ];
+
+export default config;
